@@ -1,5 +1,4 @@
-CASO ALGUMA INFORMAÇÃO ESTEJA INCORRETA, DEIXE SUA CORREÇÃO PARA ME AJUDAR. :D 
-
+CASO ALGUMA INFORMAÇÃO ESTEJA INCORRETA, DEIXE SUA CORREÇÃO PARA ME AJUDAR. :D
 ##################################################################################
 
 git init -> Inicia o repositório local.
