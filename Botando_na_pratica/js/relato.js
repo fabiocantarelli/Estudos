@@ -49,6 +49,7 @@ function FormaDeContato(){
     var Contato = document.getElementById('SelectContato')
     if(Contato.value === 'Telefone'){
         alert('Ligou')
+        
     }else if(Contato.value === 'ChatOnline'){
         alert('Chatt')
     }else{
