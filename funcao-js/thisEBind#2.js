@@ -10,6 +10,8 @@ function pessoa() {
 
 //new pessoa
 
+
+
 const pessoa2 = () => {
     this.idade2 = 0
     const self2 = this
