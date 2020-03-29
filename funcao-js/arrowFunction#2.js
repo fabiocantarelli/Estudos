@@ -7,4 +7,4 @@ function Pessoa() {
     }, 1000);
 }
 
-Pessoa()
+new Pessoa
