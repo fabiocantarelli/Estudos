@@ -6,3 +6,8 @@ let Array = [90, 13, 7, 59, 24, 66, 93, 34, 73, 15, 99, 49, 18, 7, 46, 90, 9, 60
 for (let i = 0; i < N_Arrays; i++) {
     console.log(`Índice ${i} -> `, Array[i])
 }
+
+//Ordena o array em ordem crescente Array.sort()
+console.log("")
+console.log("Ordena em ordem crescente o array :")
+console.log(Array.sort())
