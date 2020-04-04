@@ -29,4 +29,4 @@ function gerar(valorMin, valorMaximo, QuantidadeDeArrays) {
 
 //gerar(0, 100, 30)
 //gerar(0, 10, 5)
-gerar(0, 10, 20)
+gerar(0, 10, 5)

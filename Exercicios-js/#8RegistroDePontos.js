@@ -1,31 +1,24 @@
-let N_Arrays = 21
-let Jogos = [3, 38, 30, 10, 88, 14, 23, 4, 20, 5, 18, 82, 15, 13, 56, 10, 86, 65, 48, 60, 100]
+let pontuacao = [7,5,5,9,1,2,8,2,3,9,10,14] 
 
-function ComparaRegistros(PontuacaoJogoAtual) {
+function VerificaPontuacao(pontuacao){
+    let QtdDeRecordes = 0
+    let PioresJogos = 1
+    let maiorPontuacao = pontuacao[0]
+    let menorPontuacao = pontuacao[0]
 
-    Jogos.push(PontuacaoJogoAtual)
-
-    let MaiorPontuacao = Math.max(...Jogos)
-    let MenorPontuacao = Math.min(...Jogos)
-
-    //console.log(Jogos)
-
-    console.log('--------------------------------------------')
-    console.log(`Sua pontuação do jogo atual é : ${PontuacaoJogoAtual} pts`)
-    console.log('--------------------------------------------')
-
-    console.log(`Sua melhor pontuação : ${MaiorPontuacao} pts`)
-    console.log('--------------------------------------------')
-
-    console.log(`Sua pior pontuação : ${MenorPontuacao} pts`)
-    console.log('--------------------------------------------')
-    //length conta o número de elementos presentes no array
-    console.log(`Quantia de jogos jogados : ${Jogos.length} Jogos`)
-    console.log('--------------------------------------------')
-
+    //Caminha pelo array atraves dos indices
+    for(let i = 0; i < pontuacao.length; i++){
+        //Condição que caso a pontuação atual for maior que a ponto 
+        if(pontuacao[i] > maiorPontuacao){
+          maiorPontuacao = pontuacao[i]
+          QtdDeRecordes++ 
+        }else if(pontuacao[i] < menorPontuacao){
+        menorPontuacao = pontuacao[i]
+            PioresJogos = i+1
+        }
+    }
+    console.log(`Recordes: ${QtdDeRecordes}`)
+    console.log(`Pior Jogo: ${PioresJogos}º Com pontuação: ${menorPontuacao}pts`)
 }
 
-ComparaRegistros(20)
-ComparaRegistros(220)
-ComparaRegistros(300)
-ComparaRegistros(1)
+VerificaPontuacao(pontuacao)
