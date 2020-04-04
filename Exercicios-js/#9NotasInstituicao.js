@@ -11,19 +11,22 @@ e o aluno será aprovado.
 
 VerificaNotas = (NotaDoAluno) => {
     if(NotaDoAluno >= 38){
-
+        if(NotaDoAluno % 5 <= 2){
+            console.log(`Aprovado sua nota é: ${NotaDoAluno}`)
+        }else{
         // Dividiu o valor por 5 e aredondou o resuultado assim multiplicando por 5.
         // 38/5 = 7,6  Arredondada para 8 . Ai fica 8*5 = 40 -> True.
-     let NovaNota = Math.ceil(NotaDoAluno/5)*5
-
-        console.log(`Aprovado sua nota é : ${NovaNota}`)
-
-    }else if(NotaDoAluno < 38){
+            let NovaNota = Math.ceil(NotaDoAluno/5)*5
+            console.log(`Aprovado sua nota é : ${NovaNota}`)
+        }
+    }else{
         console.log("Aluno reprovado")
     }
     
 }
 
-VerificaNotas(63)
+VerificaNotas(61)
 VerificaNotas(38)
 VerificaNotas(35)
+VerificaNotas(37)
+VerificaNotas(57)
