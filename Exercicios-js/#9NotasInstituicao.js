@@ -17,10 +17,10 @@ VerificaNotas = (NotaDoAluno) => {
         // Dividiu o valor por 5 e aredondou o resuultado assim multiplicando por 5.
         // 38/5 = 7,6  Arredondada para 8 . Ai fica 8*5 = 40 -> True.
             let NovaNota = Math.ceil(NotaDoAluno/5)*5
-            console.log(`Aprovado sua nota é : ${NovaNota}`)
+            console.log(`Aprovado sua nova nota é : ${NovaNota}`)
         }
     }else{
-        console.log("Aluno reprovado")
+        console.log("Aluno reprovado nota abaixo da média")
     }
     
 }
