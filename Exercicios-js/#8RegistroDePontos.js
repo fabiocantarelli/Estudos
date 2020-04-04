@@ -10,8 +10,22 @@ function ComparaRegistros(PontuacaoJogoAtual) {
 
     //console.log(Jogos)
 
-    console.log(`Sua pontuação do jogo atual é : ${PontuacaoJogoAtual} ptss`)
+    console.log('--------------------------------------------')
+    console.log(`Sua pontuação do jogo atual é : ${PontuacaoJogoAtual} pts`)
+    console.log('--------------------------------------------')
+
     console.log(`Sua melhor pontuação : ${MaiorPontuacao} pts`)
+    console.log('--------------------------------------------')
+
+    console.log(`Sua pior pontuação : ${MenorPontuacao} pts`)
+    console.log('--------------------------------------------')
+    //length conta o número de elementos presentes no array
+    console.log(`Quantia de jogos jogados : ${Jogos.length} Jogos`)
+    console.log('--------------------------------------------')
+
 }
 
-ComparaRegistros(120)
+ComparaRegistros(20)
+ComparaRegistros(220)
+ComparaRegistros(300)
+ComparaRegistros(1)

@@ -18,7 +18,7 @@ function gerar(valorMin, valorMaximo, QuantidadeDeArrays) {
     // Console fora do laço para mostrar apenas o valor do array completamente preenchido.
     console.log(`###########################################################`)
     console.log('')
-    console.log(`let N_Arrays = ${QuantidadeDeArrays}`)
+    console.log(`let N_Arrays = ${arrayAleatorio.length}`)
     console.log(`let Array = [${arrayAleatorio}] `)
     console.log('')
     console.log(`###########################################################`)
