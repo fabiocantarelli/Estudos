@@ -10,3 +10,5 @@ let restoDeDivisao = (valorA, valorB) => {
 restoDeDivisao(10, 2)
 restoDeDivisao(17, 3)
 restoDeDivisao(1, 32)
+
+
