@@ -20,11 +20,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fabiocantarelli/Estudos.git"
+    "url": "git+https://github.com/fabiocantarelli/Estudos.git"
   },
   "keywords": [
     "gulp"
   ],
   "author": "Fabio Cantarelli",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiocantarelli/Estudos/issues"
+  },
+  "homepage": "https://devswolf.com.br"
 }

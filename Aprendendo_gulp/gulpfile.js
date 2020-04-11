@@ -3,7 +3,7 @@
 const gulp = require('gulp')
 const html = require('gulp-htmlmin')
 const sass = require('gulp-sass')
-const js = require('gulp-uglify')
+const js = require('gulp-minify')
 
 //Junta as tarefas em um array 
 const ListaDeTarefas = {
@@ -24,7 +24,7 @@ gulp.task("html", function(){
 gulp.task('scss', function() {
     return gulp.src('./src/scss/*.scss')
     .pipe(sass({outputStyle:"compressed"}))
-      .pipe(gulp.dest('./dist/scss/'))
+      .pipe(gulp.dest('./dist/css/'))
 });
 
 //Comprimi o js para mjs

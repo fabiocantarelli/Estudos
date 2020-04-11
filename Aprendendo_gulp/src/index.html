@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Teste do Gulp</title>
 </head>
 <body>
@@ -12,17 +12,19 @@
             <p><em>Para a construção desta página foi utilizado os seguintes recursos: </em></p>
         </div>
         <div class="iten-left">
-            <p><button class="btn" onclick="mostrar()"><em>Mostrar</em></button></p>
-            <table>
-                <tr><td>HTML5</td>      <td> => </td> <td>Linguagem de marcação.</td> </tr>
-                <tr><td>CSS</td>        <td> => </td> <td>Folha de estilos para estilizar a página.</td> </tr>
-                <tr><td>SCSS</td>       <td> => </td> <td>É o mesmo conceito do CSS só que mais orgânizado.</td> </tr>
-                <tr><td>JAVASCRIPT</td> <td> => </td> <td>Liguagem orientada a objetos, utilizada para manipular elementos da tela e haver uma interação com o usuário final.</td></tr>
-
-                
-            </table>
+            <p><button class="btn" onclick="MostraTable()"><em>Mostrar</em></button></p>
+            <div id="table">
+                <table>
+                    <tr><td>HTML5</td>      <td> => </td> <td>Linguagem de marcação.</td> </tr>
+                    <tr><td>CSS</td>        <td> => </td> <td>Folha de estilos para estilizar a página.</td> </tr>
+                    <tr><td>SCSS</td>       <td> => </td> <td>É o mesmo conceito do CSS só que mais orgânizado.</td> </tr>
+                    <tr><td>JAVASCRIPT</td> <td> => </td> <td>Liguagem orientada a objetos, utilizada para manipular elementos da tela e haver uma interação com o usuário final.</td></tr>
+    
+                    
+                </table>
+            </div>
         </div>
     </div>
-    <script src="js/js.js"></script>
+    <script src="js/js-min.js" type="text/javascript"></script>
 </body>
 </html>
