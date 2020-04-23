@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(121, 198, 235);
+    background-color:#392980;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 15pt;
@@ -12,7 +12,7 @@ body{
     max-width: 50%;
     margin: 0 auto;
     margin-top: 10%;
-    background-color: rgb(6, 47, 95);
+    background-color: #5A9FE8;
     width: 50%;
     box-shadow: 2px 4px 8px black;
     border-radius: 5px;
@@ -25,6 +25,7 @@ body{
 }
 
 .iten-center{
+    
     background-color: white;
     flex: 1;
     margin: 5px;
@@ -47,21 +48,22 @@ table{
 }
 
 .btn{
-    border: solid 2px rgb(6, 47, 95);
+    border: solid 2px #705AE8;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px;
+    box-shadow: 2px 2px 4px #705AE8;
     background-color: white;
     padding: 5px;
-    width: 100px;
+    width: 200px;
     font-size: 12pt;
     font-weight: bold;
+    text-transform: uppercase;
 }
 .btn:hover{
-    background-color: rgb(6, 47, 95);
+    background-color: #705AE8;
     color: white;
 }
 .btn:active{
-    background-color: rgb(10, 85, 172);
+    background-color: rgb(136, 120, 230);
 }
 
 @media screen and (max-width:1000px) {
