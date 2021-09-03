@@ -8,6 +8,6 @@ git commit -m "Comentário fica aqui" -> Cria um comentário
 git push -u origin master -> atualiza o repositório remoto no git hub.
 
 
-`git config --global user.email "fabiocantarelli@sejaamigo.com.br"`
+`git config --global user.email "fabiocantarelli@brasiltecpar.com.br"`
 
 `git config --global user.name "fabiocantarelli"`
