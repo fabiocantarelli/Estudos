@@ -8,7 +8,7 @@ Aqui vou listar os cursos que estão sendo feitos para gerar o contéudo contido
 ##### Udemy:
 >- Nome do curso: "Curso Web Moderno com JavaScript 2020 COMPLETO + Projetos"
 >- Professor: Leonardo Moura Leitao
->- Lista de exercicios feitos: ./Exercicios-js
+>- Lista de exercicios feitos: [Exercicios-js](https://github.com/fabiocantarelli/Estudos/tree/master/Aprendendo_JavaScript/Exercicios-js)
 
 ---
 ##### YouTube:
