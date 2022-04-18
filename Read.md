@@ -9,12 +9,12 @@ Aqui vou listar os cursos que estão sendo feitos para gerar o contéudo contido
 >- Nome do curso: "Curso Web Moderno com JavaScript 2020 COMPLETO + Projetos"
 >- Professor: Leonardo Moura Leitao
 >- Lista de exercicios feitos: [Exercicios-js](https://github.com/fabiocantarelli/Estudos/tree/master/Aprendendo_JavaScript/Exercicios-js)
+>- Link do curso: [curso web javaScript](https://www.udemy.com/course/curso-web/) 
 
 ---
 ##### YouTube:
 - Nome do curso: "Curso Grátis de JavaScript e ECMAScript para Iniciantes"
 - Canal: Curso em Video
 - Professor: Gustavo Guanabara
-
-Link do canal no youtube: [Curso em Vídeo](https://www.youtube.com/user/cursosemvideo/featured)
+- Link do canal no youtube: [Curso em Vídeo](https://www.youtube.com/user/cursosemvideo/featured)
 ---
