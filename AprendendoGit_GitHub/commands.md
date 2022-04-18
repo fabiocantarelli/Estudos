@@ -1,0 +1,17 @@
+# Commands git
+
+---
+
+CASO ALGUMA INFORMAÇÃO ESTEJA INCORRETA, DEIXE SUA CORREÇÃO PARA ME AJUDAR. :D
+
+---
+
+- git init : Inicia o repositório local.
+- git add * : Adiciona todos os arquivos existentes no diretório OU atualiza os modificados
+- git commit -m "Comentário fica aqui" : Cria um comentário
+- git push -u origin master : atualiza o repositório remoto no git hub.
+
+
+`git config --global user.email "fabiocantarelli@brasiltecpar.com.br"`
+
+`git config --global user.name "fabiocantarelli"`
