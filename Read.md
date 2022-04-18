@@ -15,7 +15,7 @@ YouTube:
 - Canal: Curso em Video
 - Professor: Gustavo Guanabara
 
--canal no youtube: "https://www.youtube.com/user/cursosemvideo/featured"
+Canal no youtube: "https://www.youtube.com/user/cursosemvideo/featured"
 ---------------------------------------------------------------------------
 
 ###########################################################################
