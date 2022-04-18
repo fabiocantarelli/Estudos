@@ -16,5 +16,5 @@ Aqui vou listar os cursos que estão sendo feitos para gerar o contéudo contido
 - Canal: Curso em Video
 - Professor: Gustavo Guanabara
 
-Link do canal no youtube: "https://www.youtube.com/user/cursosemvideo/featured"
+Link do canal no youtube: [Curso em Vídeo](https://www.youtube.com/user/cursosemvideo/featured)
 ---
