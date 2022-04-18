@@ -2,20 +2,19 @@ Esse repositório foi criado para acompanhar minha evolução no meio da program
 
 Aqui vou listar os cursos que estão sendo feitos para gerar o contéudo contido no meu repositório.
 
-Cursos:
-###########################################################################
-Udemy:
-- "Curso Web Moderno com JavaScript 2020 COMPLETO + Projetos"
-- Professor: Leonardo Moura Leitao
+## Cursos:
+---
 
-Lista de exercicios feitos = './Exercicios-js
----------------------------------------------------------------------------
-YouTube:
-- "Curso Grátis de JavaScript e ECMAScript para Iniciantes"
+##### Udemy:
+>- Nome do curso: "Curso Web Moderno com JavaScript 2020 COMPLETO + Projetos"
+>- Professor: Leonardo Moura Leitao
+>- Lista de exercicios feitos: ./Exercicios-js
+
+---
+##### YouTube:
+- Nome do curso: "Curso Grátis de JavaScript e ECMAScript para Iniciantes"
 - Canal: Curso em Video
 - Professor: Gustavo Guanabara
 
-Canal no youtube: "https://www.youtube.com/user/cursosemvideo/featured"
----------------------------------------------------------------------------
-
-###########################################################################
+Link do canal no youtube: "https://www.youtube.com/user/cursosemvideo/featured"
+---
